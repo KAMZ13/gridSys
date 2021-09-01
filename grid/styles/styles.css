@@ -1,0 +1,108 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-12S {
+  width: 100%;
+  float: left;
+  background-color: aqua;
+  border: solid lime 2px;
+}
+
+.col-8S {
+  width: calc(100%/12*8);
+  float: left;
+  background-color: aqua;
+  border: solid lime 2px;
+}
+
+.col-6S {
+  width: calc(100%/2);
+  float: left;
+  background-color: aqua;
+  border: solid lime 2px;
+}
+
+@media screen and (min-width: 700px) {
+  .col-12M {
+    width: 100%;
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+
+  .col-8M {
+    width: calc(100%/12*8);
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+
+  .col-4M {
+    width: calc(100%/12*4);
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+
+  .col-3M {
+    width: calc(100%/12*3);
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-12L {
+    width: 100%;
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+
+  .col-8L {
+    width: calc(100%/12*8);
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+
+  .col-6L {
+    width: calc(100%/12*6);
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+
+  .col-4L {
+    width: calc(100%/12*4);
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+
+  .col-3L {
+    width: calc(100%/12*3);
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+
+  .col-2L {
+    width: calc(100%/12*2);
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+
+  .col-1L {
+    width: calc(100%/12);
+    float: left;
+    background-color: aqua;
+    border: solid lime 2px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

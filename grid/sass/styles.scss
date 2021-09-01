@@ -1,0 +1,76 @@
+@import 'variables';
+@import 'partials';
+//small grid
+@mixin basics {
+    float: left;
+    background-color: $gridsColor;
+    border: solid  $BorderColor 2px;
+    
+}
+.col-12S{
+    width: 100%;
+    @include basics;
+}
+.col-8S{
+    width: calc(100%/12*8);
+    @include basics;
+}
+.col-6S{
+    width: calc(100%/2);
+    @include basics;
+}
+//medium grid
+
+ @media screen and (min-width:700px) {
+     .col-12M{
+        width: 100%;
+        @include basics;
+     }
+     .col-8M{
+        width: calc(100%/12*8);
+        @include basics;
+     }
+     .col-4M{
+         width: calc(100%/12*4);
+         @include basics;
+
+     }
+     .col-3M{
+         width: calc(100%/12*3);
+         @include basics;
+     }
+        
+    }
+
+//Large 
+@media screen and (min-width:1200px) {
+    .col-12L{
+       width: 100%;
+       @include basics;
+    }
+    .col-8L{
+       width: calc(100%/12*8);
+       @include basics;
+    }
+    .col-6L{
+        width: calc(100%/12*6);
+        @include basics;
+
+    }
+    .col-4L{
+        width: calc(100%/12*4);
+        @include basics;
+    }
+    .col-3L{
+        width: calc(100%/12*3);
+        @include basics;
+    }
+    .col-2L{
+        width: calc(100%/12*2);
+        @include basics;
+    }
+    .col-1L{
+        width: calc(100%/12);
+        @include basics;
+    }
+} 
